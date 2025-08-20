@@ -37,4 +37,4 @@ Pour démarrer le projet en mode développement :
 
 npm expo start
 
-[Attention: il faut être sur le même réseau]
+(Attention: il faut être sur le même réseau)
