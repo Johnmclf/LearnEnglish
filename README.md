@@ -1,31 +1,40 @@
-Lancer le projet:
-- Installer Expo Go sur téléphone
-- Installer Node.js
-- Installer Expo CLI (npm install -g expo-cli)
-- Aller sur le projet (cd learnEnglish)
-- Lancer le projet (npx expo start) [Attention: il faut être sur le même réseau]
+# Learn English
 
+Une application mobile pour apprendre l’anglais : gérer des mots, les tester et marquer ses favoris.
 
-# Learn English App
+# Fonctionnalités
 
-Application mobile pour apprendre l'anglais, créée avec **React Native + Expo**.
+Ajouter, modifier et supprimer des mots avec leurs traductions et catégories.
 
-## Installation
+Marquer des mots comme favoris.
 
-1. Cloner le repo :
-```bash
-git clone https://github.com/TON_USERNAME/ton-repo.git
-cd ton-repo
+Tester ses connaissances avec des mots aléatoires.
 
-Installer les dépendances :
+Filtrer et rechercher facilement dans la liste de mots.
+
+Interface moderne avec image de fond et boutons stylisés.
+
+# Prérequis
+
+Node.js >= 18
+
+Expo CLI (npm install -g expo-cli)
+
+Un simulateur mobile (iOS/Android) ou l’application Expo Go sur votre téléphone.
+
+# Installation
+
+Cloner le projet :
+git clone https://github.com/Johnmclf/LearnEnglish
+
+cd learnEnglish
+
 npm install
-# ou
-yarn install
 
+# Lancer l’application
 
-Lancer l'application :
+Pour démarrer le projet en mode développement :
 
-expo start
+npm expo start
 
-
-Scanne le QR code avec Expo Go sur ton téléphone pour tester l'application.
+[Attention: il faut être sur le même réseau]
