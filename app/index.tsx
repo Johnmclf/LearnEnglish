@@ -1,7 +1,17 @@
 import { View, Text, TouchableOpacity, StyleSheet, ImageBackground } from "react-native";
 import { Link } from "expo-router";
+import { initMots } from "../base/initMots";
+import { useState, useEffect } from "react";
 
 export default function Index() {
+
+  /*useEffect(() => {
+    async function init() {
+      await initMots();  // ajoute les 60 mots
+    }
+    init();
+  }, []);*/
+
   return (
 
     <ImageBackground
